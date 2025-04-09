@@ -1,6 +1,6 @@
 <?php
 
-namespace Jahid\ApiResponse;
+namespace Exitdump\ApiResponse;
 
 class ResponseBuilder
 {
