@@ -5,4 +5,4 @@ A Laravel package for standardized JSON API responses (success, error, validatio
 ## Installation
 
 ```bash
-composer require jahid/laravel-api-response
+composer require exitdump/laravel-api-response
