@@ -1,0 +1,29 @@
+{
+    "name": "jahid/laravel-api-response",
+    "description": "A Laravel package for standardized API JSON response formatting",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Jahid Hasan",
+        "email": "jahidorjahid@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Jahid\\ApiResponse\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Jahid\\ApiResponse\\ApiResponseServiceProvider"
+        ]
+      }
+    },
+    "require": {
+      "php": ">=8.0",
+      "illuminate/support": "^9.0|^10.0|^11.0"
+    }
+  }
+  
